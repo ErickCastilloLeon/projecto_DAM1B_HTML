@@ -1,0 +1,23 @@
+.content-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-images img {
+    width: 50px;
+    height: auto;
+
+}
+
+.content-images p {
+    display: flex;
+    align-items: center;
+
+}
+
+fieldset {
+    padding: 10px;
+}

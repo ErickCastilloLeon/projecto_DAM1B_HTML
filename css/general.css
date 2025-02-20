@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #F1E3C8;
+    src: url('bay-tavern-s.ttf') format('truetype');
+    justify-content: center;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: radial-gradient(#A30E4D, #511430);
+}
+
+.separador {
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 100%;
+}
+
+@media (max-width: 601px) {
+
+    .separador {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
