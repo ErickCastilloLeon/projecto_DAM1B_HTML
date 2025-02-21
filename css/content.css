@@ -1,0 +1,63 @@
+fieldset {
+    padding: 0 50px;
+    background-color: #1F2125;
+    border: 2px solid #AA3D1D;
+    padding-bottom: 150px;
+}
+
+fieldset table {
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    align-self: center;
+    width: 75%;
+}
+
+.content img {
+
+    width: 100%;
+}
+
+#titulo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#ImagenContent {
+    margin-bottom: 25px;
+}
+
+.descripcion {
+    margin-bottom: 25px;
+}
+
+#descripcion {
+    margin-top: 15px;
+}
+
+.importante {
+    margin-bottom: 25px;
+}
+
+#importante {
+    margin-top: 15px;
+}
+
+.Detalles {
+    margin-bottom: 25px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+.Detalles p:first-of-type {
+    margin-top: 15px;
+}
+
+hr {
+    margin: 20px 0px;
+    color: #F1E3C8;
+}

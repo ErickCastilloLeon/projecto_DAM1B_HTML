@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Juegos</title>
 
-    <link rel="stylesheet" href="..\css/header.css">
-    <script src="..\js/styles/header.js"></script>
-    <link rel="stylesheet" href="..\css/general.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <script src="../../js/styles/header.js"></script>
+    <link rel="stylesheet" href="../../css/general.css">
 
-    <link rel="stylesheet" href="..\css\catalog_content.css">
-    <script src="..\js\styles\catalog_content.js"></script>
+    <link rel="stylesheet" href="../../css/catalog_content.css">
+    <script src="../../js/styles/catalog_content.js"></script>
 
-    <script src="..\js\data_base\juegos\games_content.js"></script>
 
+    <link rel="stylesheet" href="../../css/content.css">
+    <script src="../../js/data_base/juegos/games_content.js"></script>
 </head>
 
 <body>
@@ -25,16 +27,16 @@
             <span></span>
         </label>
 
-        <img src="img\general\Logo.webp" class="logo">
+        <img src="../../img/general/Logo.webp" class="logo">
 
         <nav id="nav_header">
             <nav class="content_nav navigation">
                 <ul>
                     <!-- ------------------------------------------------- -->
-                    <li class="menu-item" id="inicio" onclick="window.location.href='index.html';">Inicio</li>
+                    <li class="menu-item" id="inicio" onclick="window.location.href='../../index.html';">Inicio</li>
                     <!-- ------------------------------------------------- -->
-                    <li class="menu-item" id="inicio-img" onclick="window.location.href='../index.html';"><img
-                            src="../img/general/home.webp" id="inicio-img2"></li>
+                    <li class="menu-item" id="inicio-img" onclick="window.location.href='../../index.html';"><img
+                            src="../../img/general/home.webp" id="inicio-img2"></li>
                     <!-- ------------------------------------------------- -->
                     <li class="dropdown">
                         <a class="menu-item" id="seccion">Sección</a>
@@ -80,11 +82,48 @@
             </div>
     </header>
 
-    <div id="body_content">
-        <div class="separador">
-            <div id="mainBase_content"></div>
-        </div>
+    <div class="content">
+        <fieldset>
+            <legend>
+                <h1 id="titulo"></h1>
+            </legend>
+            <img id="ImagenContent" width="250">
+
+            <details class="descripcion">
+                <summary>Descripción</summary>
+                <p id="descripcion"></p>
+            </details>
+
+            <details class="Detalles">
+                <summary>Detalles</summary>
+                <p><strong>Autor:</strong> <span id="autor"></span></p>
+                <p><strong>Motor:</strong> <span id="motor"></span></p>
+                <p><strong>Contraseña:</strong> <span id="contraseña"></span></p>
+            </details>
+
+            <details class="importante">
+                <summary>importante</summary>
+                <p id="importante"></p>
+            </details>
+
+            <table border="1">
+                <tr>
+                    <th>PC</th>
+                    <th>Android</th>
+                </tr>
+                <tr>
+                    <td><a id="enlacePC" target="_blank">Descargar</a></td>
+                    <td><a id="enlaceAndroid" target="_blank">Descargar</a></td>
+                </tr>
+            </table>
+
+            <hr>
+            <p><strong>Tags:</strong> <span id="tags"></span></p>
+            <br>
+        </fieldset>
     </div>
+
+    <script src="../../js/styles/content.js"></script>
 
 </body>
 

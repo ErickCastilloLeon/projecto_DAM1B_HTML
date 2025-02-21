@@ -1,37 +1,63 @@
 const JuegosH = [
     {
+        ID: "100001",
+        // Inicio-Buscador
+        Titulo1: "Soaring of machinarie",
+        Titulo2: "",
+        Titulo3: "Ascenso de la maquinaria",
+        Direccion: "",
+        // ************************** Content_Games **************************
+        // Fin-Buscador
+        // --------------------------------------------------
+        // Inicio-Principal
         TituloEspañol: "Ascenso de la maquinaria",
-        TituloOriginal: "Soaring of machinarie",
-        TituloRespaldo: "",
         Imagen: "../img/content/SoaringOfMachinariae.webp",
-        DireccionImagen: "https://chatgpt.com/",
-        Descripcion1: "Este es un juego de aventura",
-        Descripcion2: "Ambientado en la cultura medieval",
-        Descripcion3: "Posee multiples finales",
+        ImagenContent: "../../img/content/SoaringOfMachinariae.webp",
+        Descripcion: "Este es un juego de aventura", // <-- Esto debe ir dentro de un desplegable
+        // Fin-Principal
+        // --------------------------------------------------
+        // Inicio-Detalles -- Esta sección debe ir dentro de un desplegable
         Autor: "Autor 1",
         Motor: "Unity",
-        Contraseña: "1234",
+        Contraseña: "HelperkerX",
+        // Fin-Detalles
+        importante: "De momento no hay APK disponible para dispositivos android por lo que el enlace será el mismo que el de PC",
+        // --------------------------------------------------
+        // Inicio-Enlace -- Esta sección debe ir dentro de una tabla
+        EnlacePC: "https://www.juego1.com/descarga",
+        EnlaceAndroid: "https://www.juego1.com/descarga",
+        // Fin-Enlace
         Tags: ["Aventura", "Acción"],
-        EnlaceDescarga1: "https://www.juego1.com/descarga",
-        EnlaceDescarga2: "https://www.juego1.com/descarga",
-        EnlaceDescarga3: "https://www.juego1.com/descarga"
     },
     {
-        TituloEspañol: "Adventure LOG (ALOG)",
-        TituloOriginal: "",
-        TituloRespaldo: "",
-        Imagen: "img/imagenJuego.png",
+        ID: "100002",
+        // Inicio-Buscador
+        Titulo1: "Soaring of machinarie",
+        Titulo2: "",
+        Titulo3: "Nanpa beach EX",
+        Direccion: "",
+        // ************************** Content_Games **************************
+        // Fin-Buscador
+        // --------------------------------------------------
+        // Inicio-Principal
+        TituloEspañol: "Nanpa beach EX",
+        Imagen: "../img/content/Nanpa beach EX.webp",
         DireccionImagen: "https://chatgpt.com/",
-        Descripcion1: "Este es un juego de aventura",
-        Descripcion2: "Ambientado en la cultura medieval",
-        Descripcion3: "Posee multiples finales",
+        Descripcion: "Este es un juego de aventura en un playa", // <-- Esto debe ir dentro de un desplegable
+        // Fin-Principal
+        // --------------------------------------------------
+        // Inicio-Detalles -- Esta sección debe ir dentro de un desplegable
         Autor: "Autor 1",
-        Motor: "Unity",
-        Contraseña: "1234",
-        Tags: ["Aventura", "Acción"],
-        EnlaceDescarga1: "https://www.juego1.com/descarga",
-        EnlaceDescarga2: "https://www.juego1.com/descarga",
-        EnlaceDescarga3: "https://www.juego1.com/descarga"
+        Motor: "RPG Maker",
+        Contraseña: "HelperkerX",
+        // Fin-Detalles
+        importante: "De momento no hay APK disponible para dispositivos android por lo que el enlace será el mismo que el de PC",
+        // --------------------------------------------------
+        // Inicio-Enlace -- Esta sección debe ir dentro de una tabla
+        EnlacePC: "https://www.juego1.com/descarga",
+        EnlaceAndroid: "https://www.juego1.com/descarga",
+        // Fin-Enlace
+        Tags: ["Aventura", "Acción", "Comedia"],
     }
 ];
 

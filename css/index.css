@@ -9,7 +9,7 @@
 .content-images img {
     width: 50px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 100%;
 
 }
 
@@ -21,4 +21,9 @@
 
 fieldset {
     padding: 10px;
+}
+
+.separador {
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 100%;
 }
