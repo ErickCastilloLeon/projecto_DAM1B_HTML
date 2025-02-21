@@ -1,3 +1,21 @@
+::-webkit-scrollbar {
+    width: 8px;
+    /* Ajusta el ancho de la barra */
+    height: 50%;
+    /* NO funciona en barras de desplazamiento vertical */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+    /* Opacidad del 50% */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+    /* Color de la barra con opacidad */
+    border-radius: 10px;
+}
+
 html {
     margin: 0;
     padding: 0;
