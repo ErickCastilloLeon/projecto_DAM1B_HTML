@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="..\css/header.css">
+    <script src="..\js/styles/header.js"></script>
+    <link rel="stylesheet" href="..\css/general.css">
+
+    <link rel="stylesheet" href="..\css\catalog_content.css">
+    <script src="..\js\styles\catalog_content.js"></script>
+
+    <script src="..\js\data_base\juegos\N\games_content.js"></script>
+
+</head>
+
+<body>
+    <header class="main-header">
+
+        <label for="btn-nav" class="btn-nav"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="btn-nav">
+        <label for="btn-nav" class="btn-nav">
+            <span></span>
+        </label>
+
+        <img src="img/Logo.jpeg" class="logo">
+
+        <nav id="nav_header">
+            <nav class="content_nav navigation">
+                <ul>
+                    <!-- ------------------------------------------------- -->
+                    <li class="menu-item" id="inicio"
+                        onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">Inicio</li>
+                    <!-- ------------------------------------------------- -->
+                    <li class="menu-item" id="inicio-img"
+                        onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';"><img
+                            src="img/home.png" id="inicio-img2"></li>
+                    <!-- ------------------------------------------------- -->
+                    <li class="dropdown">
+                        <a class="menu-item" id="seccion">Sección</a>
+                        <ul class="dropdown-list" id="seccion-list">
+                            <li class="separador">Categoria ↓</li>
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                Juegos</li>
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                Mangas</li>
+                            <li class="separador">Busqueda ↓</li>
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                autor</li>
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                Motor</li>
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                Etiqueta</li>
+                        </ul>
+                    </li>
+                    <!-- ------------------------------------------------- -->
+                    <li class="dropdown">
+                        <a class="menu-item" id="otros">Otros</a>
+                        <ul class="dropdown-list" id="otros-list">
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                Soporte</li>
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                Guías</li>
+                            <li class="dropdown-item"
+                                onclick="window.location.href='https://www.w3schools.com/tags/tag_legend.ASP';">
+                                Apoyo</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+
+    <div id="body_content">
+        <div class="separador">
+            <div id="mainBase_content"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
